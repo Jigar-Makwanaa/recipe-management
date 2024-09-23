@@ -1,0 +1,204 @@
+// recipe-view-section start 
+.recipe-view-section {
+    padding: 60px 0px;
+
+    .container {
+        .row {
+            .main {
+                justify-content: center;
+
+                .recipe-view-details {
+                    width: 70%;
+
+                    .details {
+                        width: 50%;
+                        padding: 0px 15px;
+
+                        h2 {
+                            font-size: 40px;
+                            font-weight: 500;
+                        }
+
+                        h4 {
+                            color: #BABABA;
+                            font-size: 14px;
+                            padding: 15px 0px;
+                        }
+
+                        .view {
+                            i {
+                                color: #e16120;
+                                padding: 0px 5px;
+                            }
+                        }
+
+                        .instruction {
+                            padding-top: 20px;
+                        }
+
+                        .summary {
+                            padding: 15px 0px;
+                            justify-content: space-between;
+
+                            .box {
+                                width: 30%;
+
+                                span {
+                                    font-size: 30px;
+                                    text-align: center;
+                                    display: block;
+                                }
+
+                                h4 {
+                                    text-align: center;
+                                    color: #4A4A4A;
+                                }
+                            }
+                        }
+
+                        .btn {
+                            button {
+                                width: 100%;
+                                border: 0px;
+                                background-color: #3a9691;
+                                color: white;
+                                border-radius: 15px;
+                                padding: 15px;
+                                font-size: 17px;
+                                font-weight: 600;
+                                cursor: pointer;
+                            }
+                        }
+
+                        .action {
+                            justify-content: space-between;
+                            padding-top: 20px;
+
+                            .delete-recipe {
+                                width: 47%;
+
+                                button {
+                                    width: 100%;
+                                    border: 0px;
+                                    padding: 10px;
+                                    border-radius: 12px;
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 600;
+                                    background-color: red;
+                                    cursor: pointer;
+
+                                    i {
+                                        padding-right: 8px;
+                                    }
+                                }
+                            }
+
+                            .edit-recipe {
+                                width: 47%;
+
+                                button {
+                                    width: 100%;
+                                    border: 0px;
+                                    padding: 10px;
+                                    border-radius: 12px;
+                                    color: white;
+                                    font-size: 15px;
+                                    font-weight: 600;
+                                    background-color: green;
+                                    cursor: pointer;
+
+                                    i {
+                                        padding-right: 8px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .img {
+                        width: 50%;
+
+                        img {
+                            width: 100%;
+                            border-radius: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// recipe-view-section end
+
+
+// recipe-add section start 
+.recipe-add-section {
+    padding-top: 40px;
+    background-color: #fbfbfb;
+    .container {
+        .row {
+            .main {
+                .heading {
+                    padding: 20px 0px;
+
+                    h2 {
+                        font-size: 36px;
+                        color: #343434;
+                        text-align: center;
+                    }
+                }
+                .form {
+                    justify-content: center;
+                   
+                    form {
+                        width: 50%;
+
+                        .img-url, .title, .resto-name,  .instruction, .ingredients, .time, .calories {
+                            padding: 5px 0px;
+                            input {
+                                width: 100%;
+                                padding: 10px;
+                                font-size: 16px;
+                                border-radius: 12px;
+                                color: #3a9691;
+                                font-weight: 600;
+                                border: 1px solid gray;
+                            } 
+                        }
+
+                        .btn {
+                            padding-top: 30px;
+                            button {
+                                background-color: #3a9691;
+                                color: white;
+                                font-size: 17px;
+                                font-weight: 600;
+                                border: 0px;
+                                border-radius: 12px;
+                                padding: 10px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bottom-img {
+        justify-content: space-between;
+
+        .left {
+            img {
+                width: 550px;
+            }
+        }
+        .right {
+            img {
+                width: 550px;
+            }
+        }
+    }
+}
+// recipe-add section end

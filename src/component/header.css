@@ -1,0 +1,21 @@
+header {
+  padding: 20px 20px;
+  border-bottom: 1px solid gray;
+}
+header .container .row .main {
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .row .main .menu ul li {
+  padding: 0px 10px;
+  font-weight: 600;
+}
+header .container .row .main .menu ul li:hover {
+  color: #4b9b96;
+}
+header .container .row .main .menu ul .add a {
+  background-color: #4b9b96;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}/*# sourceMappingURL=header.css.map */
