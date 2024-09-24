@@ -56,37 +56,37 @@
   font-size: 24px;
 }
 .recipe-section .container .row .main {
-  justify-content: space-between;
+  gap: 15px;
 }
-.recipe-section .container .row .main .box {
+.recipe-section .container .row .main a {
   width: 19%;
   padding: 15px 0px;
 }
-.recipe-section .container .row .main .box .content {
+.recipe-section .container .row .main a .box .content {
   width: 100%;
 }
-.recipe-section .container .row .main .box .content .img img {
+.recipe-section .container .row .main a .box .content .img img {
   width: 100%;
 }
-.recipe-section .container .row .main .box .content .details {
+.recipe-section .container .row .main a .box .content .details {
   padding: 12px 0px;
 }
-.recipe-section .container .row .main .box .content .details .recipe-name h2 {
+.recipe-section .container .row .main a .box .content .details .recipe-name h2 {
   color: #4a4a4a;
   font-size: 18px;
   transition: all 0.3s;
 }
-.recipe-section .container .row .main .box .content .details .recipe-name h2:hover {
+.recipe-section .container .row .main a .box .content .details .recipe-name h2:hover {
   color: #3a9691;
 }
-.recipe-section .container .row .main .box .content .details .restorant-name {
+.recipe-section .container .row .main a .box .content .details .restorant-name {
   padding: 10px 0px;
 }
-.recipe-section .container .row .main .box .content .details .restorant-name h3 {
+.recipe-section .container .row .main a .box .content .details .restorant-name h3 {
   color: gray;
   font-size: 13px;
 }
-.recipe-section .container .row .main .box .content .details .review i {
+.recipe-section .container .row .main a .box .content .details .review i {
   color: #e16120;
   padding: 0px 2px;
 }/*# sourceMappingURL=home.css.map */

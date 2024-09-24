@@ -88,45 +88,48 @@
             }
 
             .main {
-                justify-content: space-between;
-                .box {
+                gap: 15px;
+                a {
                     width: 19%;
                     padding: 15px 0px;
-
-                    .content {
-                        width: 100%;
-                        .img {
-                            img {
-                                width: 100%;
+                    .box {
+                       
+    
+                        .content {
+                            width: 100%;
+                            .img {
+                                img {
+                                    width: 100%;
+                                }
                             }
-                        }
-
-                        .details {
-                            padding: 12px 0px;
-                            .recipe-name {
-                                h2 {
-                                    color: #4a4a4a;
-                                    font-size: 18px;
-                                    transition: all 0.3s;
-
-                                    &:hover {
-                                        color: #3a9691;
+    
+                            .details {
+                                padding: 12px 0px;
+                                .recipe-name {
+                                    h2 {
+                                        color: #4a4a4a;
+                                        font-size: 18px;
+                                        transition: all 0.3s;
+    
+                                        &:hover {
+                                            color: #3a9691;
+                                        }
                                     }
                                 }
-                            }
-
-                            .restorant-name {
-                                padding: 10px 0px;
-                                h3 {
-                                    color: gray;
-                                    font-size: 13px;
+    
+                                .restorant-name {
+                                    padding: 10px 0px;
+                                    h3 {
+                                        color: gray;
+                                        font-size: 13px;
+                                    }
                                 }
-                            }
-
-                            .review {
-                                i {
-                                    color: #e16120;
-                                    padding: 0px 2px;
+    
+                                .review {
+                                    i {
+                                        color: #e16120;
+                                        padding: 0px 2px;
+                                    }
                                 }
                             }
                         }
