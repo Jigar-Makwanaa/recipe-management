@@ -142,6 +142,7 @@
   border-radius: 12px;
   padding: 10px;
   width: 100%;
+  cursor: pointer;
 }
 .recipe-add-section .bottom-img {
   justify-content: space-between;

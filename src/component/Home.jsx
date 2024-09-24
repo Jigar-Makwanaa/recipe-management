@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from './Header'
 import './home.css'
 
 const Home = () => {
+    const [record, setRecord] = useState([])
+
+
+    useEffect(() => {
+        let allRecord = JSON.parse(localStorage.getItem('user')) ? JSON.parse(localStorage.getItem('user')) : []
+
+        setRecord(allRecord)
+    }, [])
+
+    console.log(record);
+
     return (
         <>
             <Header />
@@ -50,91 +61,33 @@ const Home = () => {
                             </h2>
                         </div>
                         <div className="main flex">
-                            <div className="box">
-                                <div className="content">
-                                    <div className="img">
-                                        <img src="https://lh3.googleusercontent.com/hFPkF9okMqi63aSteVZB6eN1EAImCe71T9x4efKnmFMHm4G8Jg9paeEJFQLDvUUPVyoK2hekQCNhahHsSxzXxQ=w220-h220-c-rw-v1-e365" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <div className="recipe-name">
-                                            <h2>Slow Cooker Whole Chicken</h2>
+                            {
+                                record.map((val) => {
+                                    return (
+                                        <div className="box">
+                                            <div className="content">
+                                                <div className="img">
+                                                    <img src="https://lh3.googleusercontent.com/hFPkF9okMqi63aSteVZB6eN1EAImCe71T9x4efKnmFMHm4G8Jg9paeEJFQLDvUUPVyoK2hekQCNhahHsSxzXxQ=w220-h220-c-rw-v1-e365" alt="" />
+                                                </div>
+                                                <div className="details">
+                                                    <div className="recipe-name">
+                                                        <h2>Slow Cooker Whole Chicken</h2>
+                                                    </div>
+                                                    <div className="restorant-name">
+                                                        <h3>Happy Foods Tube</h3>
+                                                    </div>
+                                                    <div className="review">
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                        <i class="fa-solid fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="restorant-name">
-                                            <h3>Happy Foods Tube</h3>
-                                        </div>
-                                        <div className="review">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="img">
-                                        <img src="https://lh3.googleusercontent.com/hFPkF9okMqi63aSteVZB6eN1EAImCe71T9x4efKnmFMHm4G8Jg9paeEJFQLDvUUPVyoK2hekQCNhahHsSxzXxQ=w220-h220-c-rw-v1-e365" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <div className="recipe-name">
-                                            <h2>Slow Cooker Whole Chicken</h2>
-                                        </div>
-                                        <div className="restorant-name">
-                                            <h3>Happy Foods Tube</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="img">
-                                        <img src="https://lh3.googleusercontent.com/hFPkF9okMqi63aSteVZB6eN1EAImCe71T9x4efKnmFMHm4G8Jg9paeEJFQLDvUUPVyoK2hekQCNhahHsSxzXxQ=w220-h220-c-rw-v1-e365" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <div className="recipe-name">
-                                            <h2>Slow Cooker Whole Chicken</h2>
-                                        </div>
-                                        <div className="restorant-name">
-                                            <h3>Happy Foods Tube</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="img">
-                                        <img src="https://lh3.googleusercontent.com/hFPkF9okMqi63aSteVZB6eN1EAImCe71T9x4efKnmFMHm4G8Jg9paeEJFQLDvUUPVyoK2hekQCNhahHsSxzXxQ=w220-h220-c-rw-v1-e365" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <div className="recipe-name">
-                                            <h2>Slow Cooker Whole Chicken</h2>
-                                        </div>
-                                        <div className="restorant-name">
-                                            <h3>Happy Foods Tube</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="box">
-                                <div className="content">
-                                    <div className="img">
-                                        <img src="https://lh3.googleusercontent.com/hFPkF9okMqi63aSteVZB6eN1EAImCe71T9x4efKnmFMHm4G8Jg9paeEJFQLDvUUPVyoK2hekQCNhahHsSxzXxQ=w220-h220-c-rw-v1-e365" alt="" />
-                                    </div>
-                                    <div className="details">
-                                        <div className="recipe-name">
-                                            <h2>Slow Cooker Whole Chicken</h2>
-                                        </div>
-                                        <div className="restorant-name">
-                                            <h3>Happy Foods Tube</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                    )
+                                })
+                            }
                         </div>
                     </div>
                 </div>

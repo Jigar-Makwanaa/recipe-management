@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../Header'
 import './pages.css'
 
 const RecipeView = () => {
+    
+
     return (
         <>
             <Header />
