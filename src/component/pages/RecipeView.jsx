@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../Header'
 import './pages.css'
-import { useNavigate, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import './pages.css'
 
 
@@ -92,9 +92,11 @@ const RecipeView = () => {
                                                             <button onClick={() => deleteData(val.id)}><i class="fa-solid fa-trash"></i> Delete Recipe</button>
                                                         </div>
                                                         <div className="edit-recipe">
+                                                            <Link to={`/RecipeEdit/${val.id}`}>
                                                             <button>
                                                                 <i class="fa-solid fa-pen-to-square"></i> Edit Recipe
                                                             </button>
+                                                            </Link>
                                                         </div>
                                                     </div>
                                                 </div>
