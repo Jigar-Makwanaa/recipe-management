@@ -17,6 +17,13 @@ const RecipeAdd = () => {
 
     // add recipe start 
 
+    useEffect(() => {
+        let oldRecord = JSON.parse(localStorage.getItem('user')) ? JSON.parse(localStorage.getItem('user')) : []
+
+        setRecord(oldRecord)
+
+    }, [])
+
     const handleSubmit = (e) => {
         e.preventDefault()
 
@@ -27,8 +34,10 @@ const RecipeAdd = () => {
         let allRecord = [...record, obj]
 
         setRecord(allRecord);
-        
-        alert("Recie successfully added" )
+
+        localStorage.setItem('user', JSON.stringify(allRecord))
+
+        alert("Recie successfully added")
 
 
         setTitle('')
@@ -40,14 +49,10 @@ const RecipeAdd = () => {
         setCalories('')
     }
 
+
     // add recipe end
 
-    // useEffect(() => {
-    //     let oldRecord = JSON.parse(localStorage.getItem('user')) ? JSON.parse(localStorage.getItem('user')) : []
 
-    //     setRecord(oldRecord)
-
-    // }, [])
 
     return (
         <>

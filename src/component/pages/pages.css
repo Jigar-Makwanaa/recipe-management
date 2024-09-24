@@ -6,19 +6,22 @@
 }
 .recipe-view-section .container .row .main .recipe-view-details {
   width: 70%;
+  justify-content: space-between;
 }
 .recipe-view-section .container .row .main .recipe-view-details .details {
-  width: 50%;
+  width: 40%;
   padding: 0px 15px;
 }
 .recipe-view-section .container .row .main .recipe-view-details .details h2 {
   font-size: 40px;
   font-weight: 500;
+  margin: 0px;
 }
 .recipe-view-section .container .row .main .recipe-view-details .details h4 {
   color: #BABABA;
   font-size: 14px;
   padding: 15px 0px;
+  margin: 0px;
 }
 .recipe-view-section .container .row .main .recipe-view-details .details .view i {
   color: #e16120;
@@ -26,6 +29,9 @@
 }
 .recipe-view-section .container .row .main .recipe-view-details .details .instruction {
   padding-top: 20px;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .instruction p {
+  margin: 0px;
 }
 .recipe-view-section .container .row .main .recipe-view-details .details .summary {
   padding: 15px 0px;
@@ -93,7 +99,7 @@
   padding-right: 8px;
 }
 .recipe-view-section .container .row .main .recipe-view-details .img {
-  width: 50%;
+  width: 45%;
 }
 .recipe-view-section .container .row .main .recipe-view-details .img img {
   width: 100%;
@@ -118,10 +124,22 @@
 .recipe-add-section .container .row .main .form form {
   width: 50%;
 }
-.recipe-add-section .container .row .main .form form .img-url, .recipe-add-section .container .row .main .form form .title, .recipe-add-section .container .row .main .form form .resto-name, .recipe-add-section .container .row .main .form form .instruction, .recipe-add-section .container .row .main .form form .ingredients, .recipe-add-section .container .row .main .form form .time, .recipe-add-section .container .row .main .form form .calories {
+.recipe-add-section .container .row .main .form form .img-url,
+.recipe-add-section .container .row .main .form form .title,
+.recipe-add-section .container .row .main .form form .resto-name,
+.recipe-add-section .container .row .main .form form .instruction,
+.recipe-add-section .container .row .main .form form .ingredients,
+.recipe-add-section .container .row .main .form form .time,
+.recipe-add-section .container .row .main .form form .calories {
   padding: 5px 0px;
 }
-.recipe-add-section .container .row .main .form form .img-url input, .recipe-add-section .container .row .main .form form .title input, .recipe-add-section .container .row .main .form form .resto-name input, .recipe-add-section .container .row .main .form form .instruction input, .recipe-add-section .container .row .main .form form .ingredients input, .recipe-add-section .container .row .main .form form .time input, .recipe-add-section .container .row .main .form form .calories input {
+.recipe-add-section .container .row .main .form form .img-url input,
+.recipe-add-section .container .row .main .form form .title input,
+.recipe-add-section .container .row .main .form form .resto-name input,
+.recipe-add-section .container .row .main .form form .instruction input,
+.recipe-add-section .container .row .main .form form .ingredients input,
+.recipe-add-section .container .row .main .form form .time input,
+.recipe-add-section .container .row .main .form form .calories input {
   width: 100%;
   padding: 10px;
   font-size: 16px;

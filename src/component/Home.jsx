@@ -2,18 +2,19 @@ import React, { useEffect, useState } from 'react'
 import Header from './Header'
 import './home.css'
 import { Link } from 'react-router-dom'
+import './home.css'
 
 const Home = () => {
-    // const [record, setRecord] = useState([])
+    const [record, setRecord] = useState([])
 
 
-    // useEffect(() => {
-    //     let allRecord = JSON.parse(localStorage.getItem('user')) ? JSON.parse(localStorage.getItem('user')) : []
+    useEffect(() => {
+        let allRecord = JSON.parse(localStorage.getItem('user')) ? JSON.parse(localStorage.getItem('user')) : []
 
-    //     setRecord(allRecord)
-    // }, [])
+        setRecord(allRecord)
+    }, [])
 
-    // console.log(record);
+    console.log(record);
 
     return (
         <>
@@ -62,7 +63,7 @@ const Home = () => {
                             </h2>
                         </div>
                         <div className="main flex">
-                            {/* {
+                            {
                                 record.map((val) => {
                                     return (
                                         <Link to={`/recipeView/${val.id}`}>
@@ -90,7 +91,7 @@ const Home = () => {
                                         </Link>
                                     )
                                 })
-                            } */}
+                            }
                         </div>
                     </div>
                 </div>

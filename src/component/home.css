@@ -75,6 +75,7 @@
   color: #4a4a4a;
   font-size: 18px;
   transition: all 0.3s;
+  margin: 0px;
 }
 .recipe-section .container .row .main a .box .content .details .recipe-name h2:hover {
   color: #3a9691;
@@ -85,6 +86,7 @@
 .recipe-section .container .row .main a .box .content .details .restorant-name h3 {
   color: gray;
   font-size: 13px;
+  margin: 0px;
 }
 .recipe-section .container .row .main a .box .content .details .review i {
   color: #e16120;

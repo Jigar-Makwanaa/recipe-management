@@ -9,20 +9,23 @@
 
                 .recipe-view-details {
                     width: 70%;
+                    justify-content: space-between;
 
                     .details {
-                        width: 50%;
+                        width: 40%;
                         padding: 0px 15px;
 
                         h2 {
                             font-size: 40px;
                             font-weight: 500;
+                            margin: 0px;
                         }
 
                         h4 {
                             color: #BABABA;
                             font-size: 14px;
                             padding: 15px 0px;
+                            margin: 0px;
                         }
 
                         .view {
@@ -34,6 +37,10 @@
 
                         .instruction {
                             padding-top: 20px;
+
+                            p {
+                                margin: 0px;
+                            }
                         }
 
                         .summary {
@@ -117,7 +124,7 @@
                     }
 
                     .img {
-                        width: 50%;
+                        width: 45%;
 
                         img {
                             width: 100%;
@@ -137,6 +144,7 @@
 .recipe-add-section {
     padding-top: 40px;
     background-color: #fbfbfb;
+
     .container {
         .row {
             .main {
@@ -149,14 +157,22 @@
                         text-align: center;
                     }
                 }
+
                 .form {
                     justify-content: center;
-                   
+
                     form {
                         width: 50%;
 
-                        .img-url, .title, .resto-name,  .instruction, .ingredients, .time, .calories {
+                        .img-url,
+                        .title,
+                        .resto-name,
+                        .instruction,
+                        .ingredients,
+                        .time,
+                        .calories {
                             padding: 5px 0px;
+
                             input {
                                 width: 100%;
                                 padding: 10px;
@@ -165,11 +181,12 @@
                                 color: #3a9691;
                                 font-weight: 600;
                                 border: 1px solid gray;
-                            } 
+                            }
                         }
 
                         .btn {
                             padding-top: 30px;
+
                             button {
                                 background-color: #3a9691;
                                 color: white;
@@ -187,6 +204,7 @@
             }
         }
     }
+
     .bottom-img {
         justify-content: space-between;
 
@@ -195,6 +213,7 @@
                 width: 550px;
             }
         }
+
         .right {
             img {
                 width: 550px;
@@ -202,4 +221,5 @@
         }
     }
 }
+
 // recipe-add section end
