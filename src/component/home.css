@@ -1,0 +1,92 @@
+.home-section .top-img {
+  justify-content: space-between;
+}
+.home-section .top-img .left .img img {
+  width: 160px;
+}
+.home-section .top-img .right .img img {
+  width: 280px;
+}
+.home-section .container .row .main {
+  justify-content: center;
+}
+.home-section .container .row .main .search {
+  align-items: center;
+  width: 60%;
+  border: 1px solid gray;
+  padding: 12px;
+  border-radius: 20px;
+}
+.home-section .container .row .main .search i {
+  width: 5%;
+  color: gray;
+  font-size: 18px;
+}
+.home-section .container .row .main .search input {
+  border: 0px;
+  width: 90%;
+  font-size: 19px;
+  color: #3a9691;
+  font-weight: 600;
+}
+.home-section .container .row .experience-section {
+  padding-top: 50px;
+}
+.home-section .container .row .experience-section h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: gray;
+  text-align: center;
+}
+.home-section .container .row .experience-section h2 {
+  font-size: 34px;
+  text-transform: capitalize;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.recipe-section {
+  padding: 50px 0px;
+}
+.recipe-section .container .row .title {
+  padding-bottom: 15px;
+}
+.recipe-section .container .row .title h2 {
+  text-align: center;
+  font-size: 24px;
+}
+.recipe-section .container .row .main {
+  gap: 15px;
+}
+.recipe-section .container .row .main a {
+  width: 19%;
+  padding: 15px 0px;
+}
+.recipe-section .container .row .main a .box .content {
+  width: 100%;
+}
+.recipe-section .container .row .main a .box .content .img img {
+  width: 100%;
+}
+.recipe-section .container .row .main a .box .content .details {
+  padding: 12px 0px;
+}
+.recipe-section .container .row .main a .box .content .details .recipe-name h2 {
+  color: #4a4a4a;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+.recipe-section .container .row .main a .box .content .details .recipe-name h2:hover {
+  color: #3a9691;
+}
+.recipe-section .container .row .main a .box .content .details .restorant-name {
+  padding: 10px 0px;
+}
+.recipe-section .container .row .main a .box .content .details .restorant-name h3 {
+  color: gray;
+  font-size: 13px;
+}
+.recipe-section .container .row .main a .box .content .details .review i {
+  color: #e16120;
+  padding: 0px 2px;
+}/*# sourceMappingURL=home.css.map */

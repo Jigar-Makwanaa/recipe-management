@@ -1,0 +1,155 @@
+.recipe-view-section {
+  padding: 60px 0px;
+}
+.recipe-view-section .container .row .main {
+  justify-content: center;
+}
+.recipe-view-section .container .row .main .recipe-view-details {
+  width: 70%;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details {
+  width: 50%;
+  padding: 0px 15px;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details h4 {
+  color: #BABABA;
+  font-size: 14px;
+  padding: 15px 0px;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .view i {
+  color: #e16120;
+  padding: 0px 5px;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .instruction {
+  padding-top: 20px;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .summary {
+  padding: 15px 0px;
+  justify-content: space-between;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .summary .box {
+  width: 30%;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .summary .box span {
+  font-size: 30px;
+  text-align: center;
+  display: block;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .summary .box h4 {
+  text-align: center;
+  color: #4A4A4A;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .btn button {
+  width: 100%;
+  border: 0px;
+  background-color: #3a9691;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .action {
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .action .delete-recipe {
+  width: 47%;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .action .delete-recipe button {
+  width: 100%;
+  border: 0px;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: red;
+  cursor: pointer;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .action .delete-recipe button i {
+  padding-right: 8px;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .action .edit-recipe {
+  width: 47%;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .action .edit-recipe button {
+  width: 100%;
+  border: 0px;
+  padding: 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: green;
+  cursor: pointer;
+}
+.recipe-view-section .container .row .main .recipe-view-details .details .action .edit-recipe button i {
+  padding-right: 8px;
+}
+.recipe-view-section .container .row .main .recipe-view-details .img {
+  width: 50%;
+}
+.recipe-view-section .container .row .main .recipe-view-details .img img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.recipe-add-section {
+  padding-top: 40px;
+  background-color: #fbfbfb;
+}
+.recipe-add-section .container .row .main .heading {
+  padding: 20px 0px;
+}
+.recipe-add-section .container .row .main .heading h2 {
+  font-size: 36px;
+  color: #343434;
+  text-align: center;
+}
+.recipe-add-section .container .row .main .form {
+  justify-content: center;
+}
+.recipe-add-section .container .row .main .form form {
+  width: 50%;
+}
+.recipe-add-section .container .row .main .form form .img-url, .recipe-add-section .container .row .main .form form .title, .recipe-add-section .container .row .main .form form .resto-name, .recipe-add-section .container .row .main .form form .instruction, .recipe-add-section .container .row .main .form form .ingredients, .recipe-add-section .container .row .main .form form .time, .recipe-add-section .container .row .main .form form .calories {
+  padding: 5px 0px;
+}
+.recipe-add-section .container .row .main .form form .img-url input, .recipe-add-section .container .row .main .form form .title input, .recipe-add-section .container .row .main .form form .resto-name input, .recipe-add-section .container .row .main .form form .instruction input, .recipe-add-section .container .row .main .form form .ingredients input, .recipe-add-section .container .row .main .form form .time input, .recipe-add-section .container .row .main .form form .calories input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 12px;
+  color: #3a9691;
+  font-weight: 600;
+  border: 1px solid gray;
+}
+.recipe-add-section .container .row .main .form form .btn {
+  padding-top: 30px;
+}
+.recipe-add-section .container .row .main .form form .btn button {
+  background-color: #3a9691;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 12px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+.recipe-add-section .bottom-img {
+  justify-content: space-between;
+}
+.recipe-add-section .bottom-img .left img {
+  width: 550px;
+}
+.recipe-add-section .bottom-img .right img {
+  width: 550px;
+}/*# sourceMappingURL=pages.css.map */
